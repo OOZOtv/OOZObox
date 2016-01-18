@@ -11,8 +11,8 @@ echo "Updating and upgrading the system, (grab a book and chill...)"
 sudo mkdir /home/pi/.config/autostart
 sudo mkdir /home/pi/oozo_files
 #Update and Upgrade the system, should take a while
-sudo apt-get -y update
-sudo apt-get -y upgrade
+sudo apt-get -y update > /dev/null
+sudo apt-get -y upgrade > /dev/null
 sudo apt get install watchdog git-core chkconfig > /dev/null
 
 #2. Download necessary files to OOZO.tv
@@ -159,6 +159,8 @@ sudo chkconfig watchdog on
 sudo cp /etc/watchdog.conf /etc/watchdog.conf.bak
 sudo sed -e 's/#watchdog-device/watchdog-device/g' -i /etc/watchdog.conf
 sudo /etc/init.d/watchdog start
+
+#Supervisor...
 
 #Services and updates
 update-rc.d NTP_update.sh defaults
