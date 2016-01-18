@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=OOZO.tv
+Comment=OOZO tv startup
+Exec=/home/pi/oozo_init/oozo_init.py
+Path=/home/pi/oozo_init/
+Icon=/home/pi/oozo_init/oozo_icon32.png
+Terminal=false
+Type=Application
+Categories=Network;

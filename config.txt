@@ -1,0 +1,40 @@
+
+
+#Configuração padrão RASPBERRY PI 2 Rev b - OOZO.tv
+#Juliano Piassa | Juliano@oozo.tv
+#Info http://elinux.org/RPiconfig
+
+disable_splash=1
+hdmi_force_hotplug=1
+disable_overscan=1
+overscan_left=0
+overscan_right=0
+overscan_top=0
+overscan_bottom=0
+arm_freq=1000
+over_voltage=1
+core_freq=500
+sdram_freq=483
+temp_limit=80
+over_voltage_sdram_p=0
+over_voltage_sdram_i=0
+over_voltage_sdram_c=0
+gpu_mem=256
+boot_delay=1
+#Selecionar resolução personalizada
+#framebuffer_width=1280
+#framebuffer_height=720
+# Rotate display
+# 0 = Normal
+# 1 = 90 degrees
+# 2 = 180 degress
+# 3 = 270 degress
+# 0x10000 = horizontal flip
+# 0x20000 = vertical flip
+# Uncomment to apply:
+#display_rotate=0        Normal
+#display_rotate=1         90 degrees
+#display_rotate=2        180 degrees
+#display_rotate=3        270 degrees
+#display_rotate=0x10000  horizontal flip
+#display_rotate=0x20000  vertical flip
