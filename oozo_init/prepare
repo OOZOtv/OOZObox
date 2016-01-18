@@ -1,0 +1,5 @@
+#!/bin/sh
+cp kweb_about_c.html ~/
+./check.py
+echo
+

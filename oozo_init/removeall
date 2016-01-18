@@ -1,0 +1,8 @@
+#!/bin/sh
+sudo dpkg -r kweb
+sudo rm /usr/local/share/kweb/*
+sudo rmdir /usr/local/share/kweb
+sudo rm ~/ktop
+rm ~/kweb_about_c.html
+rm ~/.kweb.conf
+

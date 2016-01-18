@@ -13,6 +13,7 @@ sudo mkdir /home/pi/oozo_files
 #Update and Upgrade the system, should take a while
 sudo apt-get -y update
 sudo apt-get -y upgrade
+sudo apt get install watchdog git-core chkconfig > /dev/null
 
 #2. Download necessary files to OOZO.tv
 echo "Downloading necessary files ..."
@@ -147,6 +148,17 @@ sudo chmod +x /usr/local/bin/reboot.sh
 sudo chmod 775 /usr/local/bin/reboot.sh
 sudo chmod +x /usr/local/bin/update_slave.sh
 sudo chmod 775 /usr/local/bin/update_slave.sh
+
+echo "Not-Ready-yet! :P"
+
+#Config watchdog
+sudo modprobe bcm2708_wdog > /dev/null
+sudo cp /etc/modules /etc/modules.bak
+sudo sed '$ i\bcm2708_wdog' -i /etc/modules
+sudo chkconfig watchdog on
+sudo cp /etc/watchdog.conf /etc/watchdog.conf.bak
+sudo sed -e 's/#watchdog-device/watchdog-device/g' -i /etc/watchdog.conf
+sudo /etc/init.d/watchdog start
 
 #Services and updates
 update-rc.d NTP_update.sh defaults
