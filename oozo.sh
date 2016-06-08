@@ -73,7 +73,7 @@ sudo ./debinstall
 crontab /home/pi/OOZObox/misc/crontab
 
 #Set blank to off
-sh -c 'setterm -blank 0 -powersave off -powerdown 0 < /dev/console > /dev/console 2>&1'
+sudo sh -c 'setterm -blank 0 -powersave off -powerdown 0 < /dev/console > /dev/console 2>&1'
 #Hide mouse pointer...
 unclutter -idle 1 -root &
 
