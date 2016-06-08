@@ -3,13 +3,14 @@
 # Juliano Piassa | Juliano@oozo.tv
 # v0.96.3
 
-*/5 * * * * /usr/bin/sudo -H /usr/local/bin/checketh.sh >> /dev/null 2>&1
-*/5 * * * * /usr/bin/sudo -H /usr/local/bin/checkwifi.sh >> /dev/null 2>&1
-20 16 * * * /usr/local/bin/reboot.sh
-0 0 * * * /usr/local/bin/reboot.sh
-*5/ * * * * /usr/local/bin/NTP_update.sh
-01 10 * * * /home/pi/oozo_files/update.sh
-10 16 * * * /home/pi/oozo_files/update.sh 
-04 15 * * * /usr/local/bin/update.sh
+
+* * * * * /home/pi/proc.sh
+10 21 * * * /home/pi/scripts/reboot.sh
+10 05 * * * /home/pi/scripts/reboot.sh
+10 15 * * * /home/pi/scripts/reboot.sh
+*/2 * * * * /home/pi/scripts/screen.sh
+*/3 * * * * /home/pi/scripts/uploader.sh
+*/30 * * * * /home/pi/scripts/clear.sh
+
 
 

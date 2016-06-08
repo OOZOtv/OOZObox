@@ -17,7 +17,7 @@ except:
     
 #Set the Glade file
 builder = Gtk.Builder()
-builder.add_from_file("/home/pi/oozo_init/oozo_start.glade")
+builder.add_from_file("/home/pi/OOZObox/oozo_init/oozo_start.glade")
                     
 class OozoStart:
 
@@ -53,7 +53,7 @@ class OozoStart:
     def check_config(self):
         #Load configuration
         self.config = ConfigParser.ConfigParser()
-        self.config.read('/home/pi/oozo_init/config')
+        self.config.read('/home/pi/OOZObox/oozo_init/config')
         self.username = self.config.get("user","username")
         
         if self.username == "":
@@ -61,7 +61,7 @@ class OozoStart:
             self.oozo_config = builder.get_object("oozo_config")
             self.oozo_config.show()
         else:
-            call(['/usr/bin/kweb3','-KHCUAJPR','http://oozotv-env.elasticbeanstalk.com/'+self.username])
+            call(['/usr/bin/kweb3','-YBEKHCUAJPR','http://oozo.tv/'+self.username])
             Gtk.main_quit()
             sys.exit(1)
             
@@ -116,7 +116,7 @@ class OozoStart:
         self.input_username = builder.get_object("input_username")
         
         self.config.set("user","username",self.input_username.get_text())
-        with open("/home/pi/oozo_init/config","wb") as configfile:
+        with open("/home/pi/OOZObox/oozo_init/config","wb") as configfile:
             self.config.write(configfile)
         self.oozo_config.destroy()
         self.check_config()
