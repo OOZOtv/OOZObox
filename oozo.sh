@@ -50,16 +50,15 @@ sudo chmod +x /home/pi/OOZObox/scripts/clear.sh
 sudo chmod +x /home/pi/OOZObox/scripts/uploader.sh
 sudo chmod +x /home/pi/OOZObox/scripts/dropbox_uploader.sh
 sudo chmod +x /home/pi/OOZObox/scripts/speedtest/speedtest_cli.py
-sudo chmod +x /home/pi/OOZOtv/debinstall install ktop prepare remove removeall
+sudo chmod +x /home/pi/OOZObox/debinstall install ktop prepare remove removeall
 sudo chmod +x /home/pi/OOZObox/oozo_init/oozo_init.py
 sudo chmod +x /home/pi/Desktop/oozo.desktop
-sudo chmod 644 /home/pi/OOZObox/proc.sh
-sudo chmod 644 /home/pi/OOZObox/screen.sh
-sudo chmod 644 /home/pi/OOZObox/reboot.sh
-sudo chmod 644 /home/pi/OOZObox/clear.sh
-sudo chmod 644 /home/pi/OOZObox/uploader.sh
+sudo chmod 644 /home/pi/OOZObox/scripts/proc.sh
+sudo chmod 644 /home/pi/OOZObox/scripts/screen.sh
+sudo chmod 644 /home/pi/OOZObox/scripts/reboot.sh
+sudo chmod 644 /home/pi/OOZObox/scripts/clear.sh
+sudo chmod 644 /home/pi/OOZObox/scripts/uploader.sh
 sudo chmod 775 /home/pi/.config/pcmanfm/LXDE-pi/desktop-items-0.conf
-sudo chmod 644 /home/pi/OOZObox/dropShell.sh
 sudo chmod -R 775 /home/pi/OOZObox/oozo_init
 sudo chmod 644 /home/pi/OOZObox/misc/crontab
 sudo chmod 777 /home/pi/.config/lxsession/LXDE-pi/autostart
