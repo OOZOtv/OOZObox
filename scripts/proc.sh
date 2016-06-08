@@ -5,7 +5,7 @@
 export DISPLAY=:0 #needed if you are running a simple gui app.
 
 process=kweb3
-makerun="python /home/pi/oozotv/oozo_init/oozo_init.py"
+makerun="python /home/pi/OOZObox/oozo_init/oozo_init.py"
 
 if ps ax | grep -v grep | grep $process > /dev/null
 then

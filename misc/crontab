@@ -4,13 +4,13 @@
 # v0.96.3
 
 
-* * * * * /home/pi/proc.sh
-10 21 * * * /home/pi/scripts/reboot.sh
-10 05 * * * /home/pi/scripts/reboot.sh
-10 15 * * * /home/pi/scripts/reboot.sh
-*/2 * * * * /home/pi/scripts/screen.sh
-*/3 * * * * /home/pi/scripts/uploader.sh
-*/30 * * * * /home/pi/scripts/clear.sh
+* * * * * /home/pi/OOZObox/scripts/proc.sh
+10 21 * * * /home/pi/OOZObox/scripts/reboot.sh
+10 05 * * * /home/pi/OOZObox/scripts/reboot.sh
+10 15 * * * /home/pi/OOZObox/scripts/reboot.sh
+*/2 * * * * /home/pi/OOZObox/scripts/screen.sh
+*/3 * * * * /home/pi/OOZObox/scripts/uploader.sh
+*/30 * * * * /home/pi/OOZObox/scripts/clear.sh
 
 
 
