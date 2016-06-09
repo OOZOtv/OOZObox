@@ -3,16 +3,19 @@
 # Made by Juliano Piassa | juliano@oozo.tv
 # http://www.oozo.tv
 
-echo "This script install OOZOtv to a Raspberry Pi V1, 2, 3" 
+echo "$(tput setaf 1)This script install OOZOtv to a Raspberry Pi V1, 2, 3$(tput setab 7)" 
 
-echo "Please note: First use the expand.sh script to expand the rpi filesystem ..."
+echo "$(tput setaf 1)Please note: First use the expand.sh script to expand the rpi filesystem ...$(tput setab 7)"
 
+echo "$(tput setaf 1)Red text $(tput setab 7)"
 sleep 2
 
-echo "Rpi will update, upgrade and install all pckges(...) This will take a while... (up to 20mins..)"
+echo "$(tput setaf 2)Rpi will update, upgrade and install all pckges(...) This will take a while... (up to 20mins..)$(tput setab 7)"
 #Install packages
 sudo apt-get -y update
+echo "$(tput setaf 2)Update ready...$(tput setab 7)"
 sudo apt-get -y upgrade
+echo "$(tput setaf 2)Upgrate ready...$(tput setab 7)"
 sudo apt-get -y install ntpdate 
 sudo apt-get -y install ntp
 sudo apt-get -y install ca-certificates-java
@@ -21,10 +24,6 @@ sudo apt-get -y install python-pip
 sudo apt-get -y install unclutter
 sudo pip install wifi
 sudo pip install configparser
-
-echo "Will clone OOZOtv GitHub"
-#Clone OOZOtv Git
-git clone https://github.com/OOZOtv/OOZObox
 
 #Fix oozo.desktop file to Desktop (start icon)
 sudo mv /home/pi/OOZObox/misc/oozo.desktop /home/pi/Desktop
@@ -39,7 +38,7 @@ sudo mv /home/pi/OOZObox/misc/hostname /etc
 sudo mv /home/pi/OOZObox/misc/.dropbox_uploader /home/pi
 
 
-echo "Will give all file permissions and modes ..."
+echo "$(tput setaf 2)Will give all file permissions and modes ...$(tput setab 7)"
 #Give all modes and permissions
 sudo chmod 644 /etc/hostname
 sudo chmod 644 /etc/hosts
@@ -65,7 +64,7 @@ sudo chmod 777 /home/pi/.config/lxsession/LXDE-pi/autostart
 sudo chmod 755 /etc/network/interfaces
 sudo chmod 755 /boot/config.txt
 
-echo "Installing Kweb3"
+echo "$(tput setaf 2)Installing Kweb3$(tput setab 7)"
 #Install Kweb3 (Will keep our git repo with newest)
 sudo ./debinstall
 
