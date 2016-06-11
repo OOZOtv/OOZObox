@@ -7,7 +7,6 @@ echo "$(tput setaf 1)This script install OOZOtv to a Raspberry Pi V1, 2, 3$(tput
 
 echo "$(tput setaf 1)Please note: First use the expand.sh script to expand the rpi filesystem ...$(tput setab 7)"
 
-echo "$(tput setaf 1)Red text $(tput setab 7)"
 sleep 2
 
 echo "$(tput setaf 2)Rpi will update, upgrade and install all pckges(...) This will take a while... (up to 20mins..)$(tput setab 7)"
