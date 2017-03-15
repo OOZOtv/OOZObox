@@ -4,5 +4,7 @@
 
 # OOZO.tv Raspberry Pi setup Guide
 
-[EN](https://github.com/oozotv/oozo-box/wiki/EN-Raspberry-setup-Guide) Setup guide for Raspberry Pi
-[PT](https://github.com/oozotv/oozo-box/wiki/PT-Guia-de-configura%C3%A7%C3%A3o-Raspberry) Guia de configuração para Raspberry Pi
+* [Link](https://github.com/oozotv/oozo-box/wiki/EN-Raspberry-setup-Guide) - Setup guide for Raspberry Pi
+
+
+* [Link](https://github.com/oozotv/oozo-box/wiki/PT-Guia-de-configura%C3%A7%C3%A3o-Raspberry) - Guia de configuração para Raspberry Pi
