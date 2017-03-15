@@ -1,6 +1,0 @@
-#!/bin/sh
-if [ ! -f /usr/bin/gdebi ]
-then
-sudo apt-get -y install gdebi-core
-fi
-sudo gdebi -n kweb_1.7.1-1_armhf.deb
