@@ -3,7 +3,7 @@
 
 
 <h1 align="center">
-  OOZO.tv Raspberry Pi setup Guide
+  OOZO.tv Raspberry Pi Setup Guide
 </h1>
 
 * [Setup guide for Raspberry Pi](https://github.com/oozotv/oozo-box/wiki/EN-Raspberry-setup-Guide)
