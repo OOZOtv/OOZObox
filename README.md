@@ -6,5 +6,6 @@
   OOZO.tv Raspberry Pi Setup Guide
 </h1>
 
-* [Setup guide for Raspberry Pi](https://github.com/oozotv/oozo-box/wiki/EN-Raspberry-setup-Guide)
-* [Guia de configuração para Raspberry Pi](https://github.com/oozotv/oozo-box/wiki/PT-Guia-de-configura%C3%A7%C3%A3o-Raspberry)
+* [Setup guide for Raspberry Pi](https://github.com/oozotv/oozo-box/wiki/Setup-guide)
+* [Guia de configuração para Raspberry Pi](https://github.com/oozotv/oozo-box/wiki/Guia-de-configura%C3%A7%C3%A3o)
+* [Raspberry Pi hotkeys](https://
