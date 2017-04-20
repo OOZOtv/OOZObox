@@ -13,6 +13,9 @@
 </p>
 <p align="center">
   <a href="https://github.com/oozotv/oozo-box/wiki/Guia-de-configura%C3%A7%C3%A3o" target="_blank">Guia de configuração Raspberry Pi</a>
+<h3 align="center">
+  English
+</h3>
 </p>
 <p align="center">
   <a href="https://github.com/oozotv/oozo-box/wiki/Hotkeys" target="_blank">Hotkeys</a>
