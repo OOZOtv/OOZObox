@@ -3,8 +3,11 @@
 
 
 <h1 align="center">
-  OOZO.tv Raspberry Pi Setup Guide
+  OOZO.tv player Guide
 </h1>
+<h2 align="center">
+  Portuguese
+</h2>
 <p align="center">
   <a href="https://github.com/oozotv/oozo-box/wiki/Atalhos" target="_blank">Atalhos</a>
 </p>
