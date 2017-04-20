@@ -5,16 +5,15 @@
 <h1 align="center">
   OOZO.tv Raspberry Pi Setup Guide
 </h1>
-
 <p align="center">
-  <a href="https://github.com/oozotv/oozo-box/wiki/Guia-de-configura%C3%A7%C3%A3o" target="_blank">Guia de configuração Raspberry Pi</a>
+  <a href="https://github.com/oozotv/oozo-box/wiki/Atalhos" target="_blank">Atalhos</a>
 </p>
 <p align="center">
-  <a href="https://github.com/oozotv/oozo-box/wiki/Setup-guide" target="_blank">Setup guide for Raspberry Pi</a>
+  <a href="https://github.com/oozotv/oozo-box/wiki/Guia-de-configura%C3%A7%C3%A3o" target="_blank">Guia de configuração Raspberry Pi</a>
 </p>
 <p align="center">
   <a href="https://github.com/oozotv/oozo-box/wiki/Hotkeys" target="_blank">Hotkeys</a>
 </p>
 <p align="center">
-  <a href="https://github.com/oozotv/oozo-box/wiki/Atalhos" target="_blank">Atalhos</a>
+  <a href="https://github.com/oozotv/oozo-box/wiki/Setup-guide" target="_blank">Setup guide for Raspberry Pi</a>
 </p>
