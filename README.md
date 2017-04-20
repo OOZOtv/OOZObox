@@ -5,9 +5,9 @@
 <h1 align="center">
   OOZO.tv player Guide
 </h1>
-<h2 align="center">
+<h3 align="center">
   Portuguese
-</h2>
+</h3>
 <p align="center">
   <a href="https://github.com/oozotv/oozo-box/wiki/Atalhos" target="_blank">Atalhos</a>
 </p>
