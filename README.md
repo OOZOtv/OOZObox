@@ -13,6 +13,8 @@
   <a href="https://github.com/oozotv/oozo-box/wiki/Setup-guide" target="_blank">Setup guide for Raspberry Pi</a>
 </p>
 <p align="center">
-  <a href="https://github.com/oozotv/oozo-box/wiki/Hotkeys---Atalhos" target="_blank">Raspberry Hotkeys/Atalhos</a>
+  <a href="https://github.com/oozotv/oozo-box/wiki/Hotkeys" target="_blank">Hotkeys</a>
 </p>
-
+<p align="center">
+  <a href="https://github.com/oozotv/oozo-box/wiki/Atalhos" target="_blank">Atalhos</a>
+</p>
