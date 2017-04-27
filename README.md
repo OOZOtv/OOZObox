@@ -3,7 +3,7 @@
 
 
 <h1 align="center">
-  OOZO.tv player Guide
+  OOZO.tv Player Guide
 </h1>
 <h3 align="center">
   Português
